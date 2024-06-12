@@ -1,0 +1,76 @@
+.head{
+    display: flex;
+    gap: 120px;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.head-img img{
+    width: 500px;
+    height: 500px;
+}
+
+.head-desc{
+    margin-top: 90px;
+}
+
+ .card-group{
+    width: 240px;
+    height: 200px;
+   text-align: center;
+}
+.card-img-container {
+    width: 200px; 
+    height: 140px;
+    background-color: #eaeaea;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating .border-star {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFC107;
+}
+
+.card img {
+    width: 100px; /* Keep the image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card i {
+    margin: 2px; 
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+    margin-left: 90px;
+}
+
+.whole{
+    display: flex;
+    gap: 90px;
+}
+
+.right-side{
+    margin-top: 150px;
+}
+
+.btn-add-cart {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-add-cart:hover {
+    background-color: burlywood;
+}
